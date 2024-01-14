@@ -13,11 +13,28 @@
     </image>
     
     <item>
+      <title>FallSim</title>
+      <link>https://changminjeon.com/project/fallsim/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/fallsim/</guid>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Similar to &lt;a href=&#34;https://changminjeon.com/project/vsense&#34;&gt;VSense&lt;/a&gt;, FallSim is a project that aims to overcome the small size limitation of real-world fall detection datasets with synthetically generated data.
+However, there are many difficult challenges, so we are still working on it.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;I am working on this project as a co-author.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ODLIA</title>
       <link>https://changminjeon.com/project/odlia/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://changminjeon.com/project/odlia/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;ODLIA is an optimization - deep learning integrated acceleration system aiming to achieve highly fast (&amp;lt;10ms) XR scene understanding. Among the various scene-understanding techniques, we are focusing on Hand-Object Tracking.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;As the team lead, I am responsible for all aspects.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

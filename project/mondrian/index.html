@@ -279,7 +279,7 @@
 
   
 
-<meta name="description" content="On-device high-performance video analytics for mobile devices" />
+<meta name="description" content="On-device high-throughput video analytics on mobile devices with compressive packed inference" />
 
 
 
@@ -324,7 +324,7 @@
 <meta property="og:site_name" content="Changmin Jeon" />
 <meta property="og:url" content="https://changminjeon.com/project/mondrian/" />
 <meta property="og:title" content="Mondrian | Changmin Jeon" />
-<meta property="og:description" content="On-device high-performance video analytics for mobile devices" /><meta property="og:image" content="https://changminjeon.com/project/mondrian/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:description" content="On-device high-throughput video analytics on mobile devices with compressive packed inference" /><meta property="og:image" content="https://changminjeon.com/project/mondrian/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -381,7 +381,7 @@
       "url": "https://changminjeon.com/media/icon_hu6e6989abf1f504613c0eaace99521a39_105635_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "On-device high-performance video analytics for mobile devices"
+  "description": "On-device high-throughput video analytics on mobile devices with compressive packed inference"
 }
 </script>
 
@@ -829,9 +829,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 493px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 540px;">
   <div style="position: relative">
-    <img src="/project/mondrian/featured_hu7505ba8c3328ee16b7c664d3e93b22c0_3994777_7130196eded9f311f37d5a594f8b00ed.webp" width="720" height="493" alt="" class="featured-image">
+    <img src="/project/mondrian/featured_hu24dc9aefd43328f966ed90a6fe7d5ecf_2152030_2fb501b7170c5ed070b25c973d4f8005.webp" width="720" height="540" alt="" class="featured-image">
     <span class="article-header-caption">Photo by Changmin</span>
   </div>
 </div>
@@ -841,7 +841,26 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <h3 id="summary">Summary</h3>
+<p>Mondrian is an edge system that enables high-performance object detection on high-resolution video streams.
+Different objects have highly diverse object detection difficulties within a single image due to their varying appearance.
+Still, existing edge video analytics systems are limited to extracting ROIs (Region of Interest).
+Mondrian not only extracts ROI regions but also reduces the amount of computation through ROI scaling according to each ROI&rsquo;s difficulty and effectively performs object detection through Packed Inference with varying ROI sizes. Mondrian achieves 2.5 times higher throughput through its compressive packed inference technique than SOTA edge video analytics systems.</p>
+<h3 id="my-role">My Role</h3>
+<p>As the team lead, I am responsible for all aspects.
+Since the existing video analytics systems are based on Python, I implemented the entire system from scratch in C++.</p>
+<h3 id="accomplishments">Accomplishments:</h3>
+<ul>
+<li>Implemented the entire video analytics system from scratch in C++
+<ul>
+<li>Implemented C++-based memory management</li>
+<li>Implemented C++ image processing using OpenCV</li>
+</ul>
+</li>
+<li>Became more familiar with code reviews by working in a two-person development team</li>
+<li>Implemented an automated mobile experiment toolkit using Python</li>
+</ul>
+
     </div>
 
     

@@ -17,7 +17,12 @@
       <link>https://changminjeon.com/project/fallsim/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://changminjeon.com/project/fallsim/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Similar to &lt;a href=&#34;https://changminjeon.com/project/vsense&#34;&gt;VSense&lt;/a&gt;, FallSim is a project that aims to overcome the small size limitation of real-world fall detection datasets with synthetically generated data.
+However, there are many difficult challenges, so we are still working on it.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;I am working on this project as a co-author.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +30,20 @@
       <link>https://changminjeon.com/project/vsense/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://changminjeon.com/project/vsense/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;The data of sensors people have to wear is minimal compared to infrastructure-based sensing such as cameras and Wifi. To compensate for this limited sensor data, we propose a method to generate sensor data in a virtual world and perform activity recognition through it. We generate virtual sensor data through Unity, and by applying data augmentation techniques based on motion capture data, we can collect data from various environments. As a result, we improved the performance of Activity Recognition by supplementing the existing limited dataset.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;I worked on this project as a co-lead. I was responsible for every step, including generating virtual sensor data, building an activity recognition pipeline, and collecting real-world IMU data.&lt;/p&gt;
+&lt;h3 id=&#34;accomplishments&#34;&gt;Accomplishments:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Experienced materializing, implementing, and validating ideas through thought and experimentation.&lt;/li&gt;
+&lt;li&gt;Implemented virtual motion synthesis with Unity.&lt;/li&gt;
+&lt;li&gt;Implemented virtual sensor data generation with Unity and Python&lt;/li&gt;
+&lt;li&gt;Implemented activity recognition pipeline with Python using scikit-learn and TensorFlow&lt;/li&gt;
+&lt;li&gt;Real-world IMU data collection with IMU sensor and Arduino board&lt;/li&gt;
+&lt;li&gt;Design and conduct experiments and analyze results&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +51,11 @@
       <link>https://changminjeon.com/project/odlia/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://changminjeon.com/project/odlia/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;ODLIA is an optimization - deep learning integrated acceleration system aiming to achieve highly fast (&amp;lt;10ms) XR scene understanding. Among the various scene-understanding techniques, we are focusing on Hand-Object Tracking.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;As the team lead, I am responsible for all aspects.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -41,7 +63,21 @@
       <link>https://changminjeon.com/project/band/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://changminjeon.com/project/band/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Band is the first mobile inference platform to support multi-DNN workloads on heterogeneous mobile processors.
+Existing mobile deep learning frameworks such as TFLite focus on single DNN inference and thus cannot fully handle multi-DNN workloads with heterogeneous processors. Moreover, the limited operator support of different accelerators further complicates the problem. Band tackles this challenge by partitioning DNNs into subgraphs, dynamically selecting optimal schedules, and considering fallback operators for unsupported processors. Evaluation results show that Band outperforms TensorFlow Lite by up to 5.04× for single-app multi-DNN workloads and achieves a 3.76× higher satisfaction rate for latency-critical multi-app scenarios.&lt;/p&gt;
+&lt;p&gt;With novel findings and extensive evaluation, &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3498361.3538948&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Band&lt;/a&gt; was published in MobiSys 2022.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;Our team consisted of 5 people, and we implemented and evaluated the entire platform together.
+Furthermore, I designed and implemented the subgraph partitioning algorithm, which is the core concept of Band.&lt;/p&gt;
+&lt;h3 id=&#34;accomplishments&#34;&gt;Accomplishments:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented Band in a 5-person team and experienced collaboration, including code review and testing&lt;/li&gt;
+&lt;li&gt;Implemented Band based on well-organized TensorFlow Lite C++ code, increasing my understanding of system design and C++-based development&lt;/li&gt;
+&lt;li&gt;Designed and implemented techniques based on system profiling&lt;/li&gt;
+&lt;li&gt;Gained an understanding of accelerator APIs such as OpenCL and NNAPI while implementing a platform that supports heterogeneous processors&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -49,7 +85,26 @@
       <link>https://changminjeon.com/project/mondrian/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://changminjeon.com/project/mondrian/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Mondrian is an edge system that enables high-performance object detection on high-resolution video streams.
+Different objects have highly diverse object detection difficulties within a single image due to their varying appearance.
+Still, existing edge video analytics systems are limited to extracting ROIs (Region of Interest).
+Mondrian not only extracts ROI regions but also reduces the amount of computation through ROI scaling according to each ROI&amp;rsquo;s difficulty and effectively performs object detection through Packed Inference with varying ROI sizes. Mondrian achieves 2.5 times higher throughput through its compressive packed inference technique than SOTA edge video analytics systems.&lt;/p&gt;
+&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
+&lt;p&gt;As the team lead, I am responsible for all aspects.
+Since the existing video analytics systems are based on Python, I implemented the entire system from scratch in C++.&lt;/p&gt;
+&lt;h3 id=&#34;accomplishments&#34;&gt;Accomplishments:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the entire video analytics system from scratch in C++
+&lt;ul&gt;
+&lt;li&gt;Implemented C++-based memory management&lt;/li&gt;
+&lt;li&gt;Implemented C++ image processing using OpenCV&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Became more familiar with code reviews by working in a two-person development team&lt;/li&gt;
+&lt;li&gt;Implemented an automated mobile experiment toolkit using Python&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
