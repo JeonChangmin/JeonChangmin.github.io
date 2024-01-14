@@ -5,7 +5,7 @@
     <link>https://changminjeon.com/publication-type/paper-conference/</link>
       <atom:link href="https://changminjeon.com/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>paper-conference</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://changminjeon.com/media/icon_hu6e6989abf1f504613c0eaace99521a39_105635_512x512_fill_lanczos_center_3.png</url>
       <title>paper-conference</title>
@@ -13,11 +13,21 @@
     </image>
     
     <item>
+      <title>Mondrian: Edge-Enabled High-Performance Video Analytics with Compressive Packed Inference </title>
+      <link>https://changminjeon.com/publication/mondrian/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/publication/mondrian/</guid>
+      <description>&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=https://changminjeon.com/project/mondrian&#34; /&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
-      <link>https://changminjeon.com/publication/2022-mobisys-band/</link>
+      <link>https://changminjeon.com/publication/band/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/publication/2022-mobisys-band/</guid>
-      <description></description>
+      <guid>https://changminjeon.com/publication/band/</guid>
+      <description>&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=https://changminjeon.com/project/band&#34; /&gt;
+</description>
     </item>
     
   </channel>

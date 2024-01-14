@@ -13,6 +13,46 @@
     </image>
     
     <item>
+      <title>FallSim</title>
+      <link>https://changminjeon.com/project/fallsim/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/fallsim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VSense</title>
+      <link>https://changminjeon.com/project/vsense/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/vsense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ODLIA</title>
+      <link>https://changminjeon.com/project/odlia/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/odlia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Band</title>
+      <link>https://changminjeon.com/project/band/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/band/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mondrian</title>
+      <link>https://changminjeon.com/project/mondrian/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/mondrian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
       <link>https://changminjeon.com/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
@@ -33,19 +73,12 @@
     </item>
     
     <item>
-      <title>Hand-Object Tracking</title>
-      <link>https://changminjeon.com/project/2024-cachecloud/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2024-cachecloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FallSim</title>
-      <link>https://changminjeon.com/project/2024-fallsim/</link>
+      <title>Mondrian: Edge-Enabled High-Performance Video Analytics with Compressive Packed Inference </title>
+      <link>https://changminjeon.com/publication/mondrian/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2024-fallsim/</guid>
-      <description></description>
+      <guid>https://changminjeon.com/publication/mondrian/</guid>
+      <description>&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=https://changminjeon.com/project/mondrian&#34; /&gt;
+</description>
     </item>
     
     <item>
@@ -96,27 +129,12 @@
     </item>
     
     <item>
-      <title>Mondrian</title>
-      <link>https://changminjeon.com/project/2023-mondrian/</link>
-      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2023-mondrian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
-      <link>https://changminjeon.com/publication/2022-mobisys-band/</link>
+      <link>https://changminjeon.com/publication/band/</link>
       <pubDate>Tue, 28 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/publication/2022-mobisys-band/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Band</title>
-      <link>https://changminjeon.com/project/2022-band/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2022-band/</guid>
-      <description></description>
+      <guid>https://changminjeon.com/publication/band/</guid>
+      <description>&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=https://changminjeon.com/project/band&#34; /&gt;
+</description>
     </item>
     
     <item>
@@ -197,14 +215,6 @@
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/HugoBlox/hugo-blox-builder/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>VSense</title>
-      <link>https://changminjeon.com/project/2019-vsense/</link>
-      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2019-vsense/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -311,7 +321,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-671325984&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-796851423&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -321,7 +331,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-671325984&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-796851423&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

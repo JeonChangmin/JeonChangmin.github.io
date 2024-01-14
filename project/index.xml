@@ -5,7 +5,7 @@
     <link>https://changminjeon.com/project/</link>
       <atom:link href="https://changminjeon.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://changminjeon.com/media/icon_hu6e6989abf1f504613c0eaace99521a39_105635_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,42 +13,42 @@
     </image>
     
     <item>
-      <title>Hand-Object Tracking</title>
-      <link>https://changminjeon.com/project/2024-cachecloud/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2024-cachecloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>FallSim</title>
-      <link>https://changminjeon.com/project/2024-fallsim/</link>
+      <link>https://changminjeon.com/project/fallsim/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2024-fallsim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mondrian</title>
-      <link>https://changminjeon.com/project/2023-mondrian/</link>
-      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2023-mondrian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Band</title>
-      <link>https://changminjeon.com/project/2022-band/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2022-band/</guid>
+      <guid>https://changminjeon.com/project/fallsim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VSense</title>
-      <link>https://changminjeon.com/project/2019-vsense/</link>
-      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/2019-vsense/</guid>
+      <link>https://changminjeon.com/project/vsense/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/vsense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ODLIA</title>
+      <link>https://changminjeon.com/project/odlia/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/odlia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Band</title>
+      <link>https://changminjeon.com/project/band/</link>
+      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/band/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mondrian</title>
+      <link>https://changminjeon.com/project/mondrian/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://changminjeon.com/project/mondrian/</guid>
       <description></description>
     </item>
     
