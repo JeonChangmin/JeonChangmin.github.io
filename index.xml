@@ -128,7 +128,7 @@ Since the existing video analytics systems are based on Python, I implemented th
     </item>
     
     <item>
-      <title>Mondrian: Edge-Enabled High-Performance Video Analytics with Compressive Packed Inference </title>
+      <title>Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference </title>
       <link>https://changminjeon.com/publication/mondrian/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://changminjeon.com/publication/mondrian/</guid>
@@ -376,7 +376,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-837961524&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-312479856&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -386,7 +386,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-837961524&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-312479856&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
