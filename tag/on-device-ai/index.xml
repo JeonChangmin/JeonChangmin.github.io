@@ -1,95 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>On-Device AI | Changmin Jeon</title>
-    <link>https://changminjeon.com/tag/on-device-ai/</link>
-      <atom:link href="https://changminjeon.com/tag/on-device-ai/index.xml" rel="self" type="application/rss+xml" />
-    <description>On-Device AI</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://changminjeon.com/media/icon_hu6e6989abf1f504613c0eaace99521a39_105635_512x512_fill_lanczos_center_3.png</url>
-      <title>On-Device AI</title>
-      <link>https://changminjeon.com/tag/on-device-ai/</link>
-    </image>
-    
-    <item>
-      <title>ODLIA</title>
-      <link>https://changminjeon.com/project/odlia/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/odlia/</guid>
-      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-&lt;p&gt;ODLIA is an optimization - deep learning integrated acceleration system aiming to achieve highly fast (&amp;lt;10ms) XR scene understanding. Among the various scene-understanding techniques, we are focusing on Hand-Object Tracking.&lt;/p&gt;
-&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
-&lt;p&gt;As the team lead, I am responsible for all aspects.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Band</title>
-      <link>https://changminjeon.com/project/band/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/band/</guid>
-      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-&lt;p&gt;Band is the first mobile inference platform to support multi-DNN workloads on heterogeneous mobile processors.
-Existing mobile deep learning frameworks such as TFLite focus on single DNN inference and thus cannot fully handle multi-DNN workloads with heterogeneous processors. Moreover, the limited operator support of different accelerators further complicates the problem. Band tackles this challenge by partitioning DNNs into subgraphs, dynamically selecting optimal schedules, and considering fallback operators for unsupported processors. Evaluation results show that Band outperforms TensorFlow Lite by up to 5.04× for single-app multi-DNN workloads and achieves a 3.76× higher satisfaction rate for latency-critical multi-app scenarios.&lt;/p&gt;
-&lt;p&gt;With novel findings and extensive evaluation, &lt;a href=&#34;https://dl.acm.org/doi/10.1145/3498361.3538948&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Band&lt;/a&gt; was published in MobiSys 2022.&lt;/p&gt;
-&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
-&lt;p&gt;Our team consisted of 5 people, and we implemented and evaluated the entire platform together.
-Furthermore, I designed and implemented the subgraph partitioning algorithm, which is the core concept of Band.&lt;/p&gt;
-&lt;h3 id=&#34;accomplishments&#34;&gt;Accomplishments:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Implemented Band in a 5-person team and experienced collaboration, including code review and testing&lt;/li&gt;
-&lt;li&gt;Implemented Band based on well-organized TensorFlow Lite C++ code, increasing my understanding of system design and C++-based development&lt;/li&gt;
-&lt;li&gt;Designed and implemented techniques based on system profiling&lt;/li&gt;
-&lt;li&gt;Gained an understanding of accelerator APIs such as OpenCL and NNAPI while implementing a platform that supports heterogeneous processors&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mondrian</title>
-      <link>https://changminjeon.com/project/mondrian/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/mondrian/</guid>
-      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-&lt;p&gt;Mondrian is an edge system that enables high-performance object detection on high-resolution video streams.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>On-Device AI | Changmin Jeon</title><link>https://changminjeon.com/tag/on-device-ai/</link><atom:link href="https://changminjeon.com/tag/on-device-ai/index.xml" rel="self" type="application/rss+xml"/><description>On-Device AI</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>https://changminjeon.com/media/icon_hu6e6989abf1f504613c0eaace99521a39_105635_512x512_fill_lanczos_center_3.png</url><title>On-Device AI</title><link>https://changminjeon.com/tag/on-device-ai/</link></image><item><title>ODLIA</title><link>https://changminjeon.com/project/odlia/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/odlia/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
+&lt;p>ODLIA is an optimization - deep learning integrated acceleration system aiming to achieve highly fast (&amp;lt;10ms) XR scene understanding. Among the various scene-understanding techniques, we are focusing on Hand-Object Tracking.&lt;/p>
+&lt;h3 id="my-role">My Role&lt;/h3>
+&lt;p>As the team lead, I am responsible for all aspects.&lt;/p></description></item><item><title>Band</title><link>https://changminjeon.com/project/band/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/band/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
+&lt;p>Band is the first mobile inference platform to support multi-DNN workloads on heterogeneous mobile processors.
+Existing mobile deep learning frameworks such as TFLite focus on single DNN inference and thus cannot fully handle multi-DNN workloads with heterogeneous processors. Moreover, the limited operator support of different accelerators further complicates the problem. Band tackles this challenge by partitioning DNNs into subgraphs, dynamically selecting optimal schedules, and considering fallback operators for unsupported processors. Evaluation results show that Band outperforms TensorFlow Lite by up to 5.04× for single-app multi-DNN workloads and achieves a 3.76× higher satisfaction rate for latency-critical multi-app scenarios.&lt;/p>
+&lt;p>With novel findings and extensive evaluation, &lt;a href="https://dl.acm.org/doi/10.1145/3498361.3538948" target="_blank" rel="noopener">Band&lt;/a> was published in MobiSys 2022.&lt;/p>
+&lt;h3 id="my-role">My Role&lt;/h3>
+&lt;p>Our team consisted of 5 people, and we implemented and evaluated the entire platform together.
+Furthermore, I designed and implemented the subgraph partitioning algorithm, which is the core concept of Band.&lt;/p>
+&lt;h3 id="accomplishments">Accomplishments:&lt;/h3>
+&lt;ul>
+&lt;li>Implemented Band in a 5-person team and experienced collaboration, including code review and testing&lt;/li>
+&lt;li>Implemented Band based on well-organized TensorFlow Lite C++ code, increasing my understanding of system design and C++-based development&lt;/li>
+&lt;li>Designed and implemented techniques based on system profiling&lt;/li>
+&lt;li>Gained an understanding of accelerator APIs such as OpenCL and NNAPI while implementing a platform that supports heterogeneous processors&lt;/li>
+&lt;/ul></description></item><item><title>Mondrian</title><link>https://changminjeon.com/project/mondrian/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/mondrian/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
+&lt;p>Mondrian is an edge system that enables high-performance object detection on high-resolution video streams.
 Different objects have highly diverse object detection difficulties within a single image due to their varying appearance.
 Still, existing edge video analytics systems are limited to extracting ROIs (Region of Interest).
-Mondrian not only extracts ROI regions but also reduces the amount of computation through ROI scaling according to each ROI&amp;rsquo;s difficulty and effectively performs object detection through Packed Inference with varying ROI sizes. Mondrian achieves 2.5 times higher throughput through its compressive packed inference technique than SOTA edge video analytics systems.&lt;/p&gt;
-&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
-&lt;p&gt;As the team lead, I am responsible for all aspects.
-Since the existing video analytics systems are based on Python, I implemented the entire system from scratch in C++.&lt;/p&gt;
-&lt;h3 id=&#34;accomplishments&#34;&gt;Accomplishments:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Implemented the entire video analytics system from scratch in C++
-&lt;ul&gt;
-&lt;li&gt;Implemented C++-based memory management&lt;/li&gt;
-&lt;li&gt;Implemented C++ image processing using OpenCV&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Became more familiar with code reviews by working in a two-person development team&lt;/li&gt;
-&lt;li&gt;Implemented an automated mobile experiment toolkit using Python&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference</title>
-      <link>https://changminjeon.com/publication/mondrian/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/publication/mondrian/</guid>
-      <description>&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=https://changminjeon.com/project/mondrian&#34; /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title>
-      <link>https://changminjeon.com/publication/band/</link>
-      <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/publication/band/</guid>
-      <description>&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=https://changminjeon.com/project/band&#34; /&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+Mondrian not only extracts ROI regions but also reduces the amount of computation through ROI scaling according to each ROI&amp;rsquo;s difficulty and effectively performs object detection through Packed Inference with varying ROI sizes. Mondrian achieves 2.5 times higher throughput through its compressive packed inference technique than SOTA edge video analytics systems.&lt;/p>
+&lt;h3 id="my-role">My Role&lt;/h3>
+&lt;p>As the team lead, I am responsible for all aspects.
+Since the existing video analytics systems are based on Python, I implemented the entire system from scratch in C++.&lt;/p>
+&lt;h3 id="accomplishments">Accomplishments:&lt;/h3>
+&lt;ul>
+&lt;li>Implemented the entire video analytics system from scratch in C++
+&lt;ul>
+&lt;li>Implemented C++-based memory management&lt;/li>
+&lt;li>Implemented C++ image processing using OpenCV&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Became more familiar with code reviews by working in a two-person development team&lt;/li>
+&lt;li>Implemented an automated mobile experiment toolkit using Python&lt;/li>
+&lt;/ul></description></item><item><title>Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference</title><link>https://changminjeon.com/publication/mondrian/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/publication/mondrian/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://changminjeon.com/project/mondrian" /></description></item><item><title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title><link>https://changminjeon.com/publication/band/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://changminjeon.com/publication/band/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://changminjeon.com/project/band" /></description></item></channel></rss>

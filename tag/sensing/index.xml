@@ -1,50 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sensing | Changmin Jeon</title>
-    <link>https://changminjeon.com/tag/sensing/</link>
-      <atom:link href="https://changminjeon.com/tag/sensing/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sensing</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://changminjeon.com/media/icon_hu6e6989abf1f504613c0eaace99521a39_105635_512x512_fill_lanczos_center_3.png</url>
-      <title>Sensing</title>
-      <link>https://changminjeon.com/tag/sensing/</link>
-    </image>
-    
-    <item>
-      <title>FallSim</title>
-      <link>https://changminjeon.com/project/fallsim/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/fallsim/</guid>
-      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-&lt;p&gt;Similar to &lt;a href=&#34;https://changminjeon.com/project/vsense&#34;&gt;VSense&lt;/a&gt;, FallSim is a project that aims to overcome the small size limitation of real-world fall detection datasets with synthetically generated data.
-However, there are many difficult challenges, so we are still working on it.&lt;/p&gt;
-&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
-&lt;p&gt;I am working on this project as a co-author.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>VSense</title>
-      <link>https://changminjeon.com/project/vsense/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://changminjeon.com/project/vsense/</guid>
-      <description>&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-&lt;p&gt;The data of sensors people have to wear is minimal compared to infrastructure-based sensing such as cameras and Wifi. To compensate for this limited sensor data, we propose a method to generate sensor data in a virtual world and perform activity recognition through it. We generate virtual sensor data through Unity, and by applying data augmentation techniques based on motion capture data, we can collect data from various environments. As a result, we improved the performance of Activity Recognition by supplementing the existing limited dataset.&lt;/p&gt;
-&lt;h3 id=&#34;my-role&#34;&gt;My Role&lt;/h3&gt;
-&lt;p&gt;I worked on this project as a co-lead. I was responsible for every step, including generating virtual sensor data, building an activity recognition pipeline, and collecting real-world IMU data.&lt;/p&gt;
-&lt;h3 id=&#34;accomplishments&#34;&gt;Accomplishments:&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Experienced materializing, implementing, and validating ideas through thought and experimentation.&lt;/li&gt;
-&lt;li&gt;Implemented virtual motion synthesis with Unity.&lt;/li&gt;
-&lt;li&gt;Implemented virtual sensor data generation with Unity and Python&lt;/li&gt;
-&lt;li&gt;Implemented activity recognition pipeline with Python using scikit-learn and TensorFlow&lt;/li&gt;
-&lt;li&gt;Real-world IMU data collection with IMU sensor and Arduino board&lt;/li&gt;
-&lt;li&gt;Design and conduct experiments and analyze results&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sensing | Changmin Jeon</title><link>https://changminjeon.com/tag/sensing/</link><atom:link href="https://changminjeon.com/tag/sensing/index.xml" rel="self" type="application/rss+xml"/><description>Sensing</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate><image><url>https://changminjeon.com/media/icon_hu6e6989abf1f504613c0eaace99521a39_105635_512x512_fill_lanczos_center_3.png</url><title>Sensing</title><link>https://changminjeon.com/tag/sensing/</link></image><item><title>FallSim</title><link>https://changminjeon.com/project/fallsim/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/fallsim/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
+&lt;p>Similar to &lt;a href="https://changminjeon.com/project/vsense">VSense&lt;/a>, FallSim is a project that aims to overcome the small size limitation of real-world fall detection datasets with synthetically generated data.
+However, there are many difficult challenges, so we are still working on it.&lt;/p>
+&lt;h3 id="my-role">My Role&lt;/h3>
+&lt;p>I am working on this project as a co-author.&lt;/p></description></item><item><title>VSense</title><link>https://changminjeon.com/project/vsense/</link><pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/vsense/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
+&lt;p>The data of sensors people have to wear is minimal compared to infrastructure-based sensing such as cameras and Wifi. To compensate for this limited sensor data, we propose a method to generate sensor data in a virtual world and perform activity recognition through it. We generate virtual sensor data through Unity, and by applying data augmentation techniques based on motion capture data, we can collect data from various environments. As a result, we improved the performance of Activity Recognition by supplementing the existing limited dataset.&lt;/p>
+&lt;h3 id="my-role">My Role&lt;/h3>
+&lt;p>I worked on this project as a co-lead. I was responsible for every step, including generating virtual sensor data, building an activity recognition pipeline, and collecting real-world IMU data.&lt;/p>
+&lt;h3 id="accomplishments">Accomplishments:&lt;/h3>
+&lt;ul>
+&lt;li>Experienced materializing, implementing, and validating ideas through thought and experimentation.&lt;/li>
+&lt;li>Implemented virtual motion synthesis with Unity.&lt;/li>
+&lt;li>Implemented virtual sensor data generation with Unity and Python&lt;/li>
+&lt;li>Implemented activity recognition pipeline with Python using scikit-learn and TensorFlow&lt;/li>
+&lt;li>Real-world IMU data collection with IMU sensor and Arduino board&lt;/li>
+&lt;li>Design and conduct experiments and analyze results&lt;/li>
+&lt;/ul></description></item></channel></rss>
