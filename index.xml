@@ -14,41 +14,7 @@ However, there are many difficult challenges, so we are still working on it.&lt;
 &lt;li>Implemented activity recognition pipeline with Python using scikit-learn and TensorFlow&lt;/li>
 &lt;li>Real-world IMU data collection with IMU sensor and Arduino board&lt;/li>
 &lt;li>Design and conduct experiments and analyze results&lt;/li>
-&lt;/ul></description></item><item><title>ODLIA</title><link>https://changminjeon.com/project/odlia/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/odlia/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
-&lt;p>ODLIA is an optimization - deep learning integrated acceleration system aiming to achieve highly fast (&amp;lt;10ms) XR scene understanding. Among the various scene-understanding techniques, we are focusing on Hand-Object Tracking.&lt;/p>
-&lt;h3 id="my-role">My Role&lt;/h3>
-&lt;p>As the team lead, I am responsible for all aspects.&lt;/p></description></item><item><title>Band</title><link>https://changminjeon.com/project/band/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/band/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
-&lt;p>Band is the first mobile inference platform to support multi-DNN workloads on heterogeneous mobile processors.
-Existing mobile deep learning frameworks such as TFLite focus on single DNN inference and thus cannot fully handle multi-DNN workloads with heterogeneous processors. Moreover, the limited operator support of different accelerators further complicates the problem. Band tackles this challenge by partitioning DNNs into subgraphs, dynamically selecting optimal schedules, and considering fallback operators for unsupported processors. Evaluation results show that Band outperforms TensorFlow Lite by up to 5.04× for single-app multi-DNN workloads and achieves a 3.76× higher satisfaction rate for latency-critical multi-app scenarios.&lt;/p>
-&lt;p>With novel findings and extensive evaluation, &lt;a href="https://dl.acm.org/doi/10.1145/3498361.3538948" target="_blank" rel="noopener">Band&lt;/a> was published in MobiSys 2022.&lt;/p>
-&lt;h3 id="my-role">My Role&lt;/h3>
-&lt;p>Our team consisted of 5 people, and we implemented and evaluated the entire platform together.
-Furthermore, I designed and implemented the subgraph partitioning algorithm, which is the core concept of Band.&lt;/p>
-&lt;h3 id="accomplishments">Accomplishments:&lt;/h3>
-&lt;ul>
-&lt;li>Implemented Band in a 5-person team and experienced collaboration, including code review and testing&lt;/li>
-&lt;li>Implemented Band based on well-organized TensorFlow Lite C++ code, increasing my understanding of system design and C++-based development&lt;/li>
-&lt;li>Designed and implemented techniques based on system profiling&lt;/li>
-&lt;li>Gained an understanding of accelerator APIs such as OpenCL and NNAPI while implementing a platform that supports heterogeneous processors&lt;/li>
-&lt;/ul></description></item><item><title>Mondrian</title><link>https://changminjeon.com/project/mondrian/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/mondrian/</guid><description>&lt;h3 id="summary">Summary&lt;/h3>
-&lt;p>Mondrian is an edge system that enables high-performance object detection on high-resolution video streams.
-Different objects have highly diverse object detection difficulties within a single image due to their varying appearance.
-Still, existing edge video analytics systems are limited to extracting ROIs (Region of Interest).
-Mondrian not only extracts ROI regions but also reduces the amount of computation through ROI scaling according to each ROI&amp;rsquo;s difficulty and effectively performs object detection through Packed Inference with varying ROI sizes. Mondrian achieves 2.5 times higher throughput through its compressive packed inference technique than SOTA edge video analytics systems.&lt;/p>
-&lt;h3 id="my-role">My Role&lt;/h3>
-&lt;p>As the team lead, I am responsible for all aspects.
-Since the existing video analytics systems are based on Python, I implemented the entire system from scratch in C++.&lt;/p>
-&lt;h3 id="accomplishments">Accomplishments:&lt;/h3>
-&lt;ul>
-&lt;li>Implemented the entire video analytics system from scratch in C++
-&lt;ul>
-&lt;li>Implemented C++-based memory management&lt;/li>
-&lt;li>Implemented C++ image processing using OpenCV&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Became more familiar with code reviews by working in a two-person development team&lt;/li>
-&lt;li>Implemented an automated mobile experiment toolkit using Python&lt;/li>
-&lt;/ul></description></item><item><title>Example Talk</title><link>https://changminjeon.com/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://changminjeon.com/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
+&lt;/ul></description></item><item><title>Band</title><link>https://changminjeon.com/project/band/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/band/</guid><description/></item><item><title>Mondrian</title><link>https://changminjeon.com/project/mondrian/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/mondrian/</guid><description/></item><item><title>TinyMem</title><link>https://changminjeon.com/project/tinymem/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>https://changminjeon.com/project/tinymem/</guid><description/></item><item><title>Example Talk</title><link>https://changminjeon.com/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://changminjeon.com/talk/example-talk/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
@@ -59,16 +25,16 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference</title><link>https://changminjeon.com/publication/mondrian/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/publication/mondrian/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://changminjeon.com/project/mondrian" /></description></item><item><title>Blog with Jupyter Notebooks!</title><link>https://changminjeon.com/post/blog-with-jupyter/</link><pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate><guid>https://changminjeon.com/post/blog-with-jupyter/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">IPython.core.display&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Image&lt;/span>
+&lt;p>Further event details, including &lt;a href="https://docs.hugoblox.com/reference/markdown/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>TinyMem: Boosting Multi-DNN Inference on Tiny AI Accelerators with Weight Memory Virtualization</title><link>https://changminjeon.com/publication/tinymem/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>https://changminjeon.com/publication/tinymem/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://dl.acm.org/doi/10.1145/3708468.3711888" /></description></item><item><title>Mondrian: On-Device High-Performance Video Analytics with Compressive Packed Inference</title><link>https://changminjeon.com/publication/mondrian/</link><pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate><guid>https://changminjeon.com/publication/mondrian/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://arxiv.org/abs/2403.07598" /></description></item><item><title>Blog with Jupyter Notebooks!</title><link>https://changminjeon.com/post/blog-with-jupyter/</link><pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate><guid>https://changminjeon.com/post/blog-with-jupyter/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">IPython.core.display&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Image&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Image&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="png" srcset="
-/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_73179593afc46954cb4c21418984f7f4.webp 400w,
+/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_5a714abab5f53c70f7c38e19755638d3.webp 400w,
 /post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_6b76da17c04a40aee4c1c633206f8065.webp 760w,
 /post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://changminjeon.com/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_73179593afc46954cb4c21418984f7f4.webp"
+src="https://changminjeon.com/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_5a714abab5f53c70f7c38e19755638d3.webp"
 width="601"
 height="203"
 loading="lazy" data-zoomable />&lt;/div>
@@ -82,7 +48,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="import-the-notebooks-into-your-site">Import the notebooks into your site&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">pipx install academic
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">academic import &lt;span class="s1">&amp;#39;notebooks/**.ipynb&amp;#39;&lt;/span> content/post/ --verbose
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The notebooks will be published to the folder you specify above. In this case, they will be published to your &lt;code>content/post/&lt;/code> folder.&lt;/p></description></item><item><title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title><link>https://changminjeon.com/publication/band/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://changminjeon.com/publication/band/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://changminjeon.com/project/band" /></description></item><item><title>Welcome to Hugo Blox Builder, the website builder for Hugo</title><link>https://changminjeon.com/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://changminjeon.com/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The notebooks will be published to the folder you specify above. In this case, they will be published to your &lt;code>content/post/&lt;/code> folder.&lt;/p></description></item><item><title>Band: Coordinated Multi-DNN Inference on Heterogeneous Mobile Processors</title><link>https://changminjeon.com/publication/band/</link><pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate><guid>https://changminjeon.com/publication/band/</guid><description>&lt;meta http-equiv="refresh" content="0; url=https://dl.acm.org/doi/10.1145/3498361.3538948" /></description></item><item><title>Welcome to Hugo Blox Builder, the website builder for Hugo</title><link>https://changminjeon.com/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://changminjeon.com/post/getting-started/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">libr&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;hello&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;ol>
@@ -229,7 +195,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-263987145" class="chart">&lt;/div>
+&lt;div id="chart-632851497" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -238,7 +204,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-263987145', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-632851497', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
