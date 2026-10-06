@@ -31,10 +31,10 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="png" srcset="
-/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_cdb6e311e2a1735dbf10e762428f706e.webp 400w,
-/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_fc9bbb87927669af314bc8ac65d9d90e.webp 760w,
+/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_5a714abab5f53c70f7c38e19755638d3.webp 400w,
+/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_6b76da17c04a40aee4c1c633206f8065.webp 760w,
 /post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://changminjeon.com/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_cdb6e311e2a1735dbf10e762428f706e.webp"
+src="https://changminjeon.com/post/blog-with-jupyter/output_1_0_hu1e42f419f47ffd4b1ca9ef8f6670390a_11155_5a714abab5f53c70f7c38e19755638d3.webp"
 width="601"
 height="203"
 loading="lazy" data-zoomable />&lt;/div>
@@ -195,7 +195,7 @@ console.log('code block');
 &lt;p>Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> format for interactive charts.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>line-chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-137246958" class="chart">&lt;/div>
+&lt;div id="chart-453897216" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -204,7 +204,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-137246958', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-453897216', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
